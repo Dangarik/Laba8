@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("Car equals Boat: " + car1.equals(boat1));
 
-        car1.changeSpeed(20, true); // Збільшення швидкості
+        car1.changeSpeed(20, true); 
         System.out.println("Updated speed of Car: " + car1.getSpeed());
     }
 
