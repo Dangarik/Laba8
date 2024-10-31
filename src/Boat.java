@@ -3,13 +3,13 @@ class Boat extends Transport {
     private String fuelType;
 
     public Boat(String model, int year, int speed, String fuelType) {
-        super(model, year); // Використання super для ініціалізації батьківського класу
+        super(model, year); 
         this.speed = speed;
         this.fuelType = fuelType;
     }
 
     public Boat(String model, int year) {
-        this(model, year, 0, "Unknown"); // Використання this для іншого конструктора
+        this(model, year, 0, "Unknown"); 
     }
 
     public int getSpeed() {
